@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GitHub From Terminal</title>
+		<script src="style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Using GitHub from Ubuntu 17.10 Terminal</h1>
+		<p class="credit">Created by CJ S</p>
+		<p>From the <span class="mono">README</span>:</p>
+		<p>I am making this so I can remember how to use GitHub from the Ubuntu 17.10 terminal. I am making this from the terminal. This gives me good practice.</p>
+		<h2>Actions</h2>
+		<nav>
+			<ul>
+				<li id="init">Making a new initiatory</li>
+				<li id="basic">Basic Navigation</li>
+				<li id="new-files">Making new files</li>
+				<li id="commit">Commiting changes</li>
+				<li id="edit">Editing files</li>
+				<li id="clone">Cloning</li>
+				<li id="init">Rebasing</li>
+				<li id="change-edit">Changing file editors</li>
+			</ul>
+		</nav>
+
+		<a href="#init"><h3>Making a new initiatory</h3></a>
+		<ol>
+			<li>Open up terminal</li>
+			<li>Type <span class="mono">git init myInit</span></li>
+		</ol>
+		<p>You should get a message like:</p>
+		<p class="mono">Initialized empty Git repository in /home/cj/myInit/.git/</p>
+		<p>The name of your repo is important to remember. You can now go into your files and see that myInit is in your system.</p>
+		<a href="#basic"><h3>Basic Navigation</h3></a>
+		<p>(This is going to continue assuming that you have the terminal open and you're continuing from the last steps.)</p>
+		<ol>
+			<li>Type <span class="mono">cd myInit</span></li>
+		</ol>
+		<p>Your terminal should be something like <span class="mono">cj@cj:~/myInit$</span></p>
+		<p>Congratulations! You are now in your directory for myInit.</p>
+		<p>If you want to make new files, <a href="#new-files">continue to the next step</a>. I am going to list how to change files if you have more than one folder in the directory.</p>
+		<ol start="2">
+			<li>Type <span class="mono">cd FILE</span></li>
+		</ol>
+		<p>For example, we are now in <span class="mono">cj@cj:~/myInit/FILE$</span>. If we had an <span class="mono">app.js</span> file in the FILE folder, for instance, we could move from: <span class="mono">cj@cj:~/myInit$</span>, type <span class="mono">cd FILE/app.js</span>, and be in <span>cj@cj:~/myInit/FILE/app.js$</span> without having to manually input moving forward one file at a time.</p>
+		<p>Now, if you want to <strong>go back ONE file</strong>, you would type <span class="mono">cd ..</span>. That would land you in <span class="mono">cj@cj:~/myInit/FILE$</span>. To go back to the <strong>main file from ANYWHERE YOU ARE</strong>, type <span class="mono">cd</span>.
+		<a href="#new-files"><h3>Making new files</h3></a>
+		<a href="#commit"><h3>Commiting changes</h3></a>
+		<a href="#edit"><h3>Editing files</h3></a>
+		<a href="#clone"><h3>Cloning</h3></a>
+		<a href="#rebase"><h3>Rebasing</h3></a>
+		<a href="#change-edit"><h3>Changing file editors</h3></a>
+	</body>
+</html>

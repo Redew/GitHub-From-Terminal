@@ -1,0 +1,27 @@
+html, body {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.credit {
+	font-style: italic;
+	color: silver;
+}
+ul {
+	display: inline-block;
+	overflow: auto;
+}
+ul.li {
+	list-style: none;
+}
+.mono {
+	font-family: "Courier New", Courier, monospace;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
