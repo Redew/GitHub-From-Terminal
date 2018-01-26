@@ -12,18 +12,18 @@
 		<h2>Actions</h2>
 		<nav>
 			<ul>
-				<li id="init">Making a new initiatory</li>
-				<li id="basic">Basic Navigation</li>
-				<li id="new-files">Making new files</li>
-				<li id="commit">Commiting changes</li>
-				<li id="edit">Editing files</li>
-				<li id="clone">Cloning</li>
-				<li id="init">Rebasing</li>
-				<li id="change-edit">Changing file editors</li>
+				<li><a href="#init">Making a new initiatory</a></li>
+				<li><a href="#basic">Basic Navigation</a></li>
+				<li><a href="#new-files">Making new files</a></li>
+				<li><a href="#commit">Commiting changes</a></li>
+				<li><a href="#edit">Editing files</a></li>
+				<li><a href="#clone">Cloning</a></li>
+				<li><a href="#rebase">Rebasing</a></li>
+				<li><a href="#change-edit">Changing file editors</a></li>
 			</ul>
 		</nav>
 
-		<a href="#init"><h3>Making a new initiatory</h3></a>
+		<h3 id="init">Making a new initiatory</h3>
 		<ol>
 			<li>Open up terminal</li>
 			<li>Type <span class="mono">git init myInit</span></li>
@@ -31,7 +31,7 @@
 		<p>You should get a message like:</p>
 		<p class="mono">Initialized empty Git repository in /home/cj/myInit/.git/</p>
 		<p>The name of your repo is important to remember. You can now go into your files and see that myInit is in your system.</p>
-		<a href="#basic"><h3>Basic Navigation</h3></a>
+		<h3 id="basic">Basic Navigation</h3>
 		<p>(This is going to continue assuming that you have the terminal open and you're continuing from the last steps.)</p>
 		<ol>
 			<li>Type <span class="mono">cd myInit</span></li>
@@ -44,11 +44,11 @@
 		</ol>
 		<p>For example, we are now in <span class="mono">cj@cj:~/myInit/FILE$</span>. If we had an <span class="mono">app.js</span> file in the FILE folder, for instance, we could move from: <span class="mono">cj@cj:~/myInit$</span>, type <span class="mono">cd FILE/app.js</span>, and be in <span>cj@cj:~/myInit/FILE/app.js$</span> without having to manually input moving forward one file at a time.</p>
 		<p>Now, if you want to <strong>go back ONE file</strong>, you would type <span class="mono">cd ..</span>. That would land you in <span class="mono">cj@cj:~/myInit/FILE$</span>. To go back to the <strong>main file from ANYWHERE YOU ARE</strong>, type <span class="mono">cd</span>.
-		<a href="#new-files"><h3>Making new files</h3></a>
-		<a href="#commit"><h3>Commiting changes</h3></a>
-		<a href="#edit"><h3>Editing files</h3></a>
-		<a href="#clone"><h3>Cloning</h3></a>
-		<a href="#rebase"><h3>Rebasing</h3></a>
-		<a href="#change-edit"><h3>Changing file editors</h3></a>
+		<h3 id="new-files">Making new files</h3>
+		<h3 id="commit">Commiting changes</h3>
+		<h3 id="edit">Editing files</h3>
+		<h3 id="clone">Cloning</h3>
+		<h3 id="init">Rebasing</h3>
+		<h3 id="change-edit">Changing file editors</h3>
 	</body>
 </html>
