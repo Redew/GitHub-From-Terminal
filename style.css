@@ -21,8 +21,6 @@ li.special {
 .mono {
 	font-family: "Courier New", Courier, monospace;
 	background-color: silver;
-	padding: 2px;
-	padding-bottom: 0px;
 a {
 	text-decoration: none;
 }
