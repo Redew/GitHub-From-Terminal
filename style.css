@@ -19,8 +19,11 @@ ul.li {
 .mono {
 	font-family: "Courier New", Courier, monospace;
 	background-color: silver;
-	width: auto;
-	height: 16px;
+	border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    background-color: silver;
+    padding-left: 5px;
+    max-width: 50%;
 }
 a {
 	text-decoration: none;
