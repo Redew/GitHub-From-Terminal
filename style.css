@@ -1,5 +1,11 @@
 html, body {
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	background-color: #002040;
+	color: #f2f2f2;
+}
+::selection { 
+	background-color: #FFA000;
+	color: #f2f2f2;
 }
 h1, h2 {
 	text-transform: uppercase;
@@ -9,21 +15,28 @@ h1, h2 {
 	font-style: italic;
 	color: silver;
 }
-ul {
-	max-width: 50%;
-}
 li.special {
-	display: inline-block;
+	list-style-type: none;
 	letter-spacing: 2px;
 	margin: 0;
 	padding: 5px;
 	text-transform: uppercase;
+}
 .mono {
 	font-family: "Courier New", Courier, monospace;
 	background-color: silver;
+	color: black;
+	padding-top: 2px;
+	padding-left: 1px;
+	padding-right: 2px;
+}
 a {
 	text-decoration: none;
+	color: #FFA000;
 }
 a:visited {
-	text-decoration: none;
+	color: #B27000;
+}
+a:hover {
+	color: #FFD60D
 }
