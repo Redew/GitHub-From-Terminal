@@ -11,9 +11,13 @@ h1, h2 {
 	text-transform: uppercase;
 	font-weight: 100;
 }
+h1 {
+	margin-bottom: -15px;
+}
 .credit {
 	font-style: italic;
 	color: silver;
+	font-size: 12px;
 }
 li.special {
 	list-style-type: none;
